@@ -1,13 +1,5 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-input = gets.strip
 
-def input_to_index
-  input.to_i - 1
-end
-
-index = input_to_index(input)
-
-def position_taken?
+def position_taken?(board, index)
 if board[index] == " "
   false
 else
